@@ -32,9 +32,9 @@ body {
     font-size: 2rem;
 }
 
-.next-button {
+.next-retry-button {
     padding: 1rem 3rem;
-    background: rgb(24, 114, 174);
+    background: #FF0000;
     color: white;
     border: none;
     cursor: pointer;
