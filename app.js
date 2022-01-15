@@ -4,7 +4,7 @@ const levelOne = document.querySelector(".level-one");
 const levelTwo = document.querySelector(".level-two");
 
 // next button
-const nextRetryButton = document.querySelector(".next-retry-button")
+const nextRetryButton = document.querySelector(".next-retry-button");
 
 // UI Objects
 const uiLevel = document.querySelector(".ui-level");
@@ -59,7 +59,7 @@ window.addEventListener("mousemove", (e) => {
     if(hasLevelCompleted) return;
     let check = e.target.classList.value;
     CollisionCheck(check);
-})
+});
 
 nextRetryButton.addEventListener("click", () => {
     nextRetryButton.style.opacity = 0;
@@ -90,4 +90,4 @@ nextRetryButton.addEventListener("click", () => {
                 break;
         }
     }
-})
+});

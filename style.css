@@ -43,6 +43,10 @@ body {
     transition: opacity 0.5s ease;
 }
 
+.level-one {
+    pointer-events: all;
+}
+
 .level-two {
     display: none;
 }
