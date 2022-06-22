@@ -75,7 +75,7 @@ nextRetryButton.addEventListener("click", () => {
                 currentLevel += 1;
                 break;
             case 2:
-                window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                window.location.href = "https://www.youtube.com/watch?v=xvFZjo5PgG0"
                 break;
         }
         hasLevelCompleted = false;
